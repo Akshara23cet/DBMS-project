@@ -1,0 +1,19 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Database
+db.sqlite3
+
+# Django migrations (optional if you want to track them)
+# */migrations/*.pyc
+# */migrations/*.py
+
+# IDE / editor folders
+.vscode/
+.idea/
