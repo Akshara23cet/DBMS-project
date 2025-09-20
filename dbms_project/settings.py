@@ -78,13 +78,14 @@ WSGI_APPLICATION = 'dbms_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbms_project',     # the DB name you just created
-        'USER': 'postgres',          # your PostgreSQL username
-        'PASSWORD': '1234',  # your PostgreSQL password
+        'NAME': 'dbms_project',   # or whatever you named your DB in pgAdmin
+        'USER': 'postgres',        # default superuser unless you created another
+        'PASSWORD': 'postgres123',  # the password you set during installation
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
